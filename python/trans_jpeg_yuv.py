@@ -9,10 +9,10 @@ video_path = './origin.avi'
 jpeg_path = './jpegs'
 yuv_path = './yuvs'
 
-if os.path.isdir(jpeg_path)
-    os.mkdir(jpeg_path)
-if not os.path.isdir(yuv_path)
-    os.mkdir(yuv_path)
+#if not os.path.isdir(jpeg_path)
+#    os.mkdir(jpeg_path)
+#if not os.path.isdir(yuv_path)
+#    os.mkdir(yuv_path)
 
 jpeg_name = os.path.join(jpeg_path. '/img%d.jpeg')
 
